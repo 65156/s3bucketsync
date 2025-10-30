@@ -1,21 +1,8 @@
 buckets:
-  - source_bucket: tf-sports-cloud-lz-x81js-m1x
+  - source_bucket: my-source-bucket-1
     destination_buckets:
-      - tf-state-sports-cloud-lz-x81js-dd5
-      # - tf-state-sports-cloud-lz-x81js-dd5-dr
-  - source_bucket: tf-sports-cloud-dst-x81js-pe9
+      - my-dest-bucket-1
+      - my-dest-bucket-2
+  - source_bucket: my-source-bucket-2
     destination_buckets:
-      - tf-state-sports-cloud-dst-x81js-iq1
-      # - tf-state-sports-cloud-dst-x81js-iq1-dr
-  - source_bucket: tf-sports-cloud-sbx-x81js-08b
-    destination_buckets:
-      - tf-state-sports-cloud-sbx-x81js-b5s
-      # - tf-state-sports-cloud-sbx-x81js-b5s-dr
-  - source_bucket: tf-security-clearance-bhd92-367
-    destination_buckets:
-      - tf-state-security-clearance-bhd92-9o2
-      # - tf-state-security-clearance-bhd92-9o2-dr
-  - source_bucket: terraform-pipelines-vi14ju-sk1
-    destination_buckets:
-      - tf-state-sports-pipelines-vi14ju-t7c
-      # - tf-state-sports-pipelines-vi14ju-t7c-dr
+      - my-dest-bucket-3
